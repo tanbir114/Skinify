@@ -31,20 +31,3 @@ git clone https://github.com/your-username/skin-disease-frontend.git
 cd skin-disease-frontend
 flutter pub get
 flutter run
-
-Folder Structure
-.
-├── lib
-│   ├── screens
-│   │   ├── home_screen.dart
-│   │   ├── scan_screen.dart
-│   │   ├── result_screen.dart
-│   │   ├── all_scans_screen.dart
-│   ├── providers
-│   │   └── image_provider.dart
-│   ├── const.dart
-│   └── main.dart
-├── assets
-│   └── images
-│       └── skin-disease_5424095.png
-└── pubspec.yaml
