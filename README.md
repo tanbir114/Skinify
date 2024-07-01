@@ -1,17 +1,50 @@
-# skinify
+# Skin Disease Detection Frontend
 
-A new Flutter project.
+This repository contains the frontend code for the Skin Disease Detection project. The frontend is built using Flutter and provides an interface for users to upload images of skin diseases and view the results of the analysis.
+
+## Features
+
+- Search for skin problems
+- View recent scans
+- Upload images for analysis
+- Display detailed results of the analysis
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Carousel Slider
+- Provider
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Skinify" 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/skin-disease-frontend.git
+cd skin-disease-frontend
+flutter pub get
+flutter run
+
+Folder Structure
+.
+├── lib
+│   ├── screens
+│   │   ├── home_screen.dart
+│   │   ├── scan_screen.dart
+│   │   ├── result_screen.dart
+│   │   ├── all_scans_screen.dart
+│   ├── providers
+│   │   └── image_provider.dart
+│   ├── const.dart
+│   └── main.dart
+├── assets
+│   └── images
+│       └── skin-disease_5424095.png
+└── pubspec.yaml
